@@ -1,290 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Paradise">
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/grid.css" >
-    <link rel="stylesheet" href="css/styles.css" >
-    <title>パラダイスにようこそ¦ Welcome to Paradise</title>
-  </head>
-  <body>
-    <div class="heade-container container">
-      <div class="header">
-        <div>
-          <img src="images/logo.png" alt="Official_Logo_for_Paradise">
-        </div>
-        <div>
-          <div class="contact-btn">
-            <div class="text">
-              <a href="/contact.html">お問い合わせ</a>
-            </div>
-            <div class="icon">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M3.00977 5.83789C3.00977 5.28561 3.45748 4.83789 4.00977 4.83789H20C20.5523 4.83789 21 5.28561 21 5.83789V17.1621C21 18.2667 20.1046 19.1621 19 19.1621H5C3.89543 19.1621 3 18.2667 3 17.1621V6.16211C3 6.11449 3.00333 6.06765 3.00977 6.0218V5.83789ZM5 8.06165V17.1621H19V8.06199L14.1215 12.9405C12.9499 14.1121 11.0504 14.1121 9.87885 12.9405L5 8.06165ZM6.57232 6.80554H17.428L12.7073 11.5263C12.3168 11.9168 11.6836 11.9168 11.2931 11.5263L6.57232 6.80554Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="menu-btn">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z"
-                fill="currentColor"
-              />
-              <path
-                d="M2 12.0322C2 11.4799 2.44772 11.0322 3 11.0322H21C21.5523 11.0322 22 11.4799 22 12.0322C22 12.5845 21.5523 13.0322 21 13.0322H3C2.44772 13.0322 2 12.5845 2 12.0322Z"
-                fill="currentColor"
-              />
-              <path
-                d="M3 17.0645C2.44772 17.0645 2 17.5122 2 18.0645C2 18.6167 2.44772 19.0645 3 19.0645H21C21.5523 19.0645 22 18.6167 22 18.0645C22 17.5122 21.5523 17.0645 21 17.0645H3Z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="close">&times;</div>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>パラダイスにようこそ¦ Welcome to Paradise</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Welcome to Paradise">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+    <h1><img src="images/logo.png" alt="Official_Logo_for_Paradise"></h1>
+    <div id="header_contact">
+
+        <a href="contact.html"><img src="images/btn_contact.png" alt="contact" ></a></div>
+    <nav id="global_navi">
+
         <ul>
-          <li class="current"><a href="/">Home</a></li>
-          <li><a href="places.html">人気の場所・Places</a></li>
-          <li><a href="go.html">行き方・How to go</a></li>
-          <li><a href="map.html">国地図ー・Map</a></li>
-          <li><a href="food.html">食文化・Cuisine</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="place.html">人気の場所・Places</a></li>
+            <li><a href="go.html">行き方・How to go</a></li>
+            <li><a href="map.html">国地図ー・Map</a></li>
+            <li><a href="food.html">食文化・Cuisine</a></li>
         </ul>
-      </div>
-    </div>
-    <div class="main container">
-      <div class="image-slide">
-        <div class="text" style="opacity: 0; /*Changes with javascript*/">
-          Timeless Ruines
-        </div>
-        <div class="image">
-          <img src="images/places/anu1.png" >
-        </div>
-      </div>
-      <div class="row m-0">
-        <div class="col-12 col-md-8 col-lg-9">
-          <h2>スリランカについて</h2>
-          <div class="row">
-            <div class="col-12 col-lg-8">
-              <p>
-                スリランカ民主社会主義共和国、通称スリランカは、南アジアのインド亜大陸の南東にポーク海峡を隔てて位置する共和制国家。地方行政区分として、スリランカの国土は9つの州、25の県に分けられている。州はスリランカにおいて19世紀から存在していた。地理については島の北部は平坦地が続き、南部に向かうにつれて山地が多くなる。気候は熱帯性であり高温多湿で、海岸部・低地では年平均気温22
-                -
-                28°Cである。スリランカには2500年の歴史に裏づけされた文化が存在する。スリランカ国内には、ユネスコの世界遺産リストに登録された文化遺産が6件、自然遺産が2件ある。セイロンティーとは、世界の茶の生産のうち10%を占める。
-              </p>
-            </div>
-            <div class="col-12 col-lg-4">
-              <img
-                src="images/globe.png"
-                style="width: 100%; height: auto"
-                alt="Where_in_the_World"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 col-lg-3">
-          <h2>人気の場所</h2>
-          <ul class="side-bar">
-            <li>
-              <a href="places.html#kandy"
-                ><div class="text">Scenic</div>
-                <div class="image">
-                  <img src="images/scenic.jpg" alt="Heritage" ></div
-              ></a>
-            </li>
-            <li>
-              <a href="places.html#anuradhapura"
-                ><div class="text">Heritage</div>
-                <div class="image">
-                  <img src="images/heritage.jpg" alt="Wildlife" ></div
-              ></a>
-            </li>
-            <li>
-              <a href="places.html#galle"
-                ><div class="text">Coastal</div>
-                <div class="image">
-                  <img src="images/coastal.jpg" alt="Scenic" ></div
-              ></a>
-            </li>
-            <li>
-              <a href="places.html#yala"
-                ><div class="text">Wildlife</div>
-                <div class="image">
-                  <img src="images/wildlife.jpg" alt="Coastal" ></div
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row m-0">
+    </nav>
+    <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i> </div>
+
+ 
+
+
+<div id="m_visual">
+    <p><img src="images/banner.gif" alt="Kandy Mountain range"></p>
+  </div>
+
+<div id="wrapper">
+      
+    <!--メイン-->
+    <div id="main">
+      <section id="point">
+        <h2>スリランカについて</h2>
+        <section>
+          
+          <figure>
+            <img src="images/globe.png" alt="Where_in_the_World">
+            <figcaption>スリランカの位置</figcaption>
+          </figure>
+          <p>スリランカ民主社会主義共和国、通称スリランカは、南アジアのインド亜大陸の南東にポーク海峡を隔てて位置する共和制国家。地方行政区分として、スリランカの国土は9つの州、25の県に分けられている。州はスリランカにおいて19世紀から存在していた。地理については島の北部は平坦地が続き、南部に向かうにつれて山地が多くなる。気候は熱帯性であり高温多湿で、海岸部・低地では年平均気温22 - 28°Cである。スリランカには2500年の歴史に裏づけされた文化が存在する。スリランカ国内には、ユネスコの世界遺産リストに登録された文化遺産が6件、自然遺産が2件ある。セイロンティーとは、世界の茶の生産のうち10%を占める。</p>
+        </section>
+        
+      </section>
+      <section id="news">
         <h2>Information</h2>
-        <table class="info">
-          <tr>
-            <td>公用語</td>
-            <td>シンハラ語、タミル語</td>
-          </tr>
-          <tr>
-            <td>首都</td>
-            <td>スリジャヤワルダナプラコッテ</td>
-          </tr>
-          <tr>
-            <td>2最大の都市</td>
-            <td>コロンボ</td>
-          </tr>
-          <tr>
-            <td>政府</td>
-            <td>大統領 ゴーターバヤ・ラージャパクサ</td>
-          </tr>
-          <tr>
-            <td>総計</td>
-            <td>65,610km2</td>
-          </tr>
-          <tr>
-            <td>人口</td>
-            <td>2,167万人</td>
-          </tr>
-        </table>
-      </div>
+        <dl>
+          <dt>公用語</dt>
+          <dd>シンハラ語、タミル語</dd>
+          <dt>首都</dt>
+          <dd>スリジャヤワルダナプラコッテ</dd>
+          <dt>2最大の都市</dt>
+          <dd>コロンボ</dd>
+          <dt>政府</dt>
+          <dd>大統領	ゴーターバヤ・ラージャパクサ</dd>
+          <dt>総計</dt>
+          <dd>65,610km2</dd>
+          <dt>人口</dt>
+          <dd>2,167万人</dd>
+        </dl>
+      </section>
     </div>
-    <footer class="container">
-      <div class="row m-0 p-0">
-        <div class="col-12 footer">
-          <a href="#"> WebPage </a>
-          <a href="#"> WebPage </a>
-          <a href="#"> WebPage </a>
-          <a href="#"> WebPage </a>
-          <a href="#"> WebPage </a>
-        </div>
-        <div class="col-12 copyright">&copy; Paradise</div>
-      </div>
-    </footer>
-    <script>
-      //For menu button change
-      $(".menu-btn").on("click", () => {
-        if (!$(".navigation").hasClass("active")) {
-          $(".navigation").addClass("active");
-          $(".menu-btn").html(
-            '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z" fill="currentColor" /></svg>'
-          );
-        } else {
-          $(".navigation").removeClass("active");
-          $(".menu-btn").html(
-            '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor" /><path d="M2 12.0322C2 11.4799 2.44772 11.0322 3 11.0322H21C21.5523 11.0322 22 11.4799 22 12.0322C22 12.5845 21.5523 13.0322 21 13.0322H3C2.44772 13.0322 2 12.5845 2 12.0322Z" fill="currentColor" /><path d="M3 17.0645C2.44772 17.0645 2 17.5122 2 18.0645C2 18.6167 2.44772 19.0645 3 19.0645H21C21.5523 19.0645 22 18.6167 22 18.0645C22 17.5122 21.5523 17.0645 21 17.0645H3Z" fill="currentColor" />'
-          );
-        }
-      });
-      //For image slide show
-      const imageDelay = 3000;
-      const imageSlide = [
-        [
-          // Change Image Slider Text
-          "Timeless Ruines",
-          [
-            "images/places/anu1.png",
-            "images/places/anu2.png",
-            "images/places/anu3.png",
-          ],
-        ],
-        [
-          "Colonial Legacy",
-          [
-            "images/places/col1.png",
-            "images/places/col3.png",
-            "images/places/kan.png",
-          ],
-        ],
-      ];
+    <!--/メイン-->
 
-      //Start slide show
-      function Slider() {
-        //Loop
-        for (i = 0; i < imageSlide.length; i++) {
-          (function (i) {
-            //Time out for fade in / out
-            setTimeout(function () {
-              //Change text function
-              ChangeText(imageSlide[i][0]);
+    <!--サイド-->
+    <aside id="sidebar">
+      <section id="side_banner">
+        <h2>人気の場所</h2>
+    
+        <ul>
+          <li><a href="../MyPAge/place.html #scenic"><img src="images/scenic.png" alt="Heritage"></a></li>
+          <li><a href="../MyPAge/place.html #heritage"><img src="images/heritage.png" alt="Wildlife"></a></li>
+          <li><a href="../MyPAge/place.html #coastal"><img src="images/coastal.png" alt="Scenic"></a></li>
+          <li><a href="../MyPAge/place.html #wildlife"><img src="images/wildlife.png" alt="Coastal"></a></li>
+          <li class="r1"><img src="images/right1.png" alt="Map_of_places"></li>
+            
+        </ul>
+        
+        
+      </section>
+    </aside>
+    <!--/サイド-->
+      
+  </div>
 
-              // Image change loop
-              for (j = 0; j < imageSlide[i][1].length; j++) {
-                (function (j) {
-                  setTimeout(function () {
-                    //Change image
-                    Change(imageSlide[i][1][j]);
-                  }, imageDelay * j);
-                })(j);
-              }
+<footer>
+    <div id="footer_nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="place.html">Places</a></li>
+        <li><a href="Go.html">How to go</a></li>
+        <li><a href="Map.html">Map</a></li>
+        <li><a href="food.html">Cuisine</a></li>
+      </ul>
+    </div>
+    <small>&copy; 2021 Paradise</small>
+  </footer>
 
-              //For infinity loop
-              if (i == imageSlide.length - 1) {
-                console.log(["END", i]);
-                setTimeout(() => {
-                  Slider();
-                }, imageDelay * imageSlide[i][1].length * i);
-              }
-            }, imageDelay * imageSlide[i][1].length * i);
-          })(i);
-        }
-      }
-      function Change(imageUrl) {
-        $(".image-slide > .image").animate(
-          {
-            opacity: 0,
-          },
-          1000,
-          () => {
-            $(".image-slide > .image > img").attr("src", imageUrl);
-            $(".image-slide > .image").animate(
-              {
-                opacity: 1,
-              },
-              1000
-            );
-          }
-        );
-      }
-      function ChangeText(text) {
-        $(".image-slide > .text").animate(
-          {
-            opacity: 0,
-          },
-          imageDelay / 2,
-          () => {
-            $(".image-slide > .text").html(text);
-            $(".image-slide > .text").animate(
-              {
-                opacity: 1,
-              },
-              imageDelay / 2
-            );
-          }
-        );
-      }
-      Slider();
-    </script>
-  </body>
+</body>
 </html>
